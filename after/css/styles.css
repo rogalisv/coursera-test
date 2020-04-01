@@ -189,6 +189,39 @@ a.call-btn {
 
  }
 
+ /* FOOTER */
+ .panel-footer {
+ 	margin-top: 30px;
+ 	padding-top: 35px;
+ 	padding-bottom: 30px;
+ 	background-color: #222;
+ 	border-top: 0;
+ }
+ .panel-footer div.row {
+ 	margin-bottom: 35px;
+ 	 }
+ 	 #hours, #address {
+ 	 	line-height: 2;
+ 	 }
+ 	 #hours > span, #address > span {
+ 	 	font-size: 1.4em;
+ 	 }
+
+
+ 	  #address p {
+ 	 	color: #557c3e;
+ 	 	font-size: .8em;
+ 	 	line-height: 1.8;
+ 	 }
+ 	 #testimonials {
+ 	 	font-style: italic;
+ 	 }
+ 	 #testimonials p:nth-child(2) {
+ 	 	margin-top: 25px;
+ 	 }
+
+ 	 /* END FOOTER */
+
 /******** Large devices only *****/
 @media (min-width: 1200px) {
 .container-fluid .jumbotron {
@@ -312,5 +345,26 @@ margin-top: 12px;
 	
 }
 
+/* FOOTER */
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+.panel-footer section:nth-child(3) {
+	margin-bottom: 0; /* margin already exists on the whole row */
+}
+.panel-footer section hr {
+	width: 50%;
+	    border-top: 1px solid #fbfbfb;
+}
+/* End Footer */
 }
 
+/******** Super extra small devices Only :-) (e.g., iphone 4) *****/
+
+@media (max-width: 479px) {
+	.navbar-brand h1 {
+		padding-top: 5px;
+		font-size: 6vw;
+	}
+}
