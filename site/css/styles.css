@@ -381,8 +381,8 @@ color: #fff;
 	align-items: center;
 
 }
-#nav-item {
-	margin-left: -80px;
+.nav-item {
+	margin-left: 0%;
 }
 
 
@@ -418,8 +418,8 @@ color: #fff;
 	align-items: center;
 
 }
-#nav-item {
-	margin-left: -80px;
+.nav-item {
+	margin-left: 0%;
 }
 
 
@@ -458,7 +458,7 @@ color: #fff;
 }
 .navbar-brand h1 { /* Restaurant name */
 padding-top: 10px;
-font-size: 5vw;  /* 1vw = 1% of viewport width */
+font-size: 8vw;  /* 1vw = 1% of viewport width */
 }
 
 
@@ -470,7 +470,7 @@ margin-top: 12px;
 .navbar-brand p {
 	 /* Star-K */
 	
-font-size: 2vw;  /* 1vw = 1% of viewport width */
+font-size: 3vw;  /* 1vw = 1% of viewport width */
 }
 
 
@@ -479,10 +479,9 @@ font-size: 2vw;  /* 1vw = 1% of viewport width */
 	align-items: center;
 
 }
-#nav-item {
-	margin-left: -80px;
+.nav-item {
+	margin-left: 0%;
 }
-
 
 .fas  {
 	
@@ -526,8 +525,13 @@ font-size: 2vw;  /* 1vw = 1% of viewport width */
 @media (max-width: 479px) {
 	.navbar-brand h1 {
 		padding-top: 5px;
-		font-size: 9vw;
+		font-size: 10vw;
 	}
+	.navbar-brand p {
+	 /* Star-K */
+	
+font-size: 4vw;  /* 1vw = 1% of viewport width */
+}
 
 	a.call-btn {
 	font-size: 7vw;
