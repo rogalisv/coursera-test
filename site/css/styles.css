@@ -8,7 +8,7 @@ body {
 
 @font-face {
 	font-family: Anaktoria;
-	src: url('images/Anaktoria.otf');
+	src: url('../images/Anaktoria.otf');
 }
 
 /** HEADER **/
@@ -179,7 +179,7 @@ box-shadow: 0 1px 5px 1px #cccccc;
 	border-radius: 10px;
 }
 a.call-btn {
-	color: #0c0807;
+	color: #000000;
 	font-size: 1.8em;
 	display: flex;
 	align-items: center;
@@ -189,8 +189,9 @@ a.call-btn {
 	margin-top: -3px;
 	margin-right: 5px;
 }
-#Deliver {
+#Deliver a {
 	font-weight: bold;
+	color: #fff;
 	text-transform: uppercase;
 	margin-top: 15px;
 
@@ -380,6 +381,10 @@ color: #fff;
 	align-items: center;
 
 }
+#nav-item {
+	margin-left: -80px;
+}
+
 
 /*.fas  {
 	
@@ -413,6 +418,10 @@ color: #fff;
 	align-items: center;
 
 }
+#nav-item {
+	margin-left: -80px;
+}
+
 
 
 .fas  {
@@ -470,6 +479,9 @@ font-size: 2vw;  /* 1vw = 1% of viewport width */
 	align-items: center;
 
 }
+#nav-item {
+	margin-left: -80px;
+}
 
 
 .fas  {
@@ -514,14 +526,14 @@ font-size: 2vw;  /* 1vw = 1% of viewport width */
 @media (max-width: 479px) {
 	.navbar-brand h1 {
 		padding-top: 5px;
-		font-size: 6vw;
+		font-size: 9vw;
 	}
 
 	a.call-btn {
-	font-size: 4vw;
+	font-size: 7vw;
 }
 
-	#menu-tile, #specials-tile {
+	#menu-tile, #specials-tile, #map-tile {
 		width: 280px;
 		margin: 0 auto 15px;
 	}
