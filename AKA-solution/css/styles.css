@@ -2103,6 +2103,13 @@ background-color: #0c1319;
 max-width: 760px;
 background-color: #030a12;
 	}
+
+	.contact-form {
+	position: relative;
+	padding-left: 60px;
+	padding-right:60px;
+
+}
 #company {
 	margin-top: -220px;
 }
@@ -2114,12 +2121,12 @@ background-color: #030a12;
 
 .icon-cards {
  
- transform: scale(0.7); 
+ transform: scale(0.8); 
 }
 
 #carusel3d {
 	
-  margin-top: -250px;
+  margin-top: -230px;
 }
 
 
@@ -2136,7 +2143,7 @@ background-color: #030a12;
 /* FOOTER */
 
 .panel-footer {
-margin-top: -18px;
+margin-top: -7px;
 padding: 20px;
 }
 
@@ -2246,14 +2253,14 @@ margin-right: 10px;
 
 #citata {
 	position: relative;
-	top: -300px;
+	top: -310px;
 	margin-left: 10px;
 
 		font-size: 3vw;
 }
 #citata2 {
 	
-	top: -480px;
+	top: -490px;
 }
 
 
@@ -2354,7 +2361,8 @@ top: 45px;
     }
 
     #testimonials {
-margin-left: 0;
+margin-left: 10px;
+margin-right: 10px;
     	
     } 
 
@@ -2362,6 +2370,8 @@ margin-left: 0;
 .panel-footer section hr {
     	width: 80%;
     }
+
+   
 /*
 	#menu-tile, #menu-tile1, #specials-tile, #map-tile {
 		width: 280px;
@@ -2379,3 +2389,5 @@ margin-left: 0;
   max-width: 100%;
 	}
 }
+
+  	
