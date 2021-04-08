@@ -2222,6 +2222,19 @@ color: #00b0f0;
 	font-size: 1.3rem;
 }
 
+
+
+#home-tiles2 {
+font-size: 20px;
+
+
+	}
+#home-tiles {
+margin-left: 10px;
+margin-right: 10px;
+
+}
+
 #text {
 	padding-left: 30px;
 	padding-right: 30px;
@@ -2233,12 +2246,15 @@ color: #00b0f0;
 
 #citata {
 	position: relative;
-	top: -320px;
-	margin-right: -90px;
+	top: -300px;
+	margin-left: 10px;
 
 		font-size: 3vw;
 }
-
+#citata2 {
+	
+	top: -480px;
+}
 
 
 #menu-tile1 p{
@@ -2321,6 +2337,16 @@ padding-right: 10px;
     left: 30px;
 
 }
+/*
+#menu-tile, #menu-tile1, #specials-tile, #map-tile, #menu-tile2 {
+box-shadow: 0 1px 5px 1px #000;
+} */
+
+#menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
+font-size: 0.9em;
+top: 45px;
+
+	}
 
     #map-tile {
     	height: 250px;
@@ -2328,9 +2354,9 @@ padding-right: 10px;
     }
 
     #testimonials {
-margin-left: -50px;
+margin-left: 0;
     	
-    }
+    } 
 
    
 .panel-footer section hr {
