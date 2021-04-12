@@ -1719,7 +1719,7 @@ width: 200px;
 		right: 0;
 		margin-right: 20px;
 font-size: 0.4em;
-left: 10px;
+left: 40px;
 }
 #citata2 {
 top: -540px;
@@ -1733,13 +1733,14 @@ width: 350px;
   	position: fixed;
   	top: 492px;
   	right: 0px;
-
+z-index: 1000;
 }
 
 #phone4 {
   	position: fixed;
   	top: 562px;
   	right: 0px;
+  	z-index: 1000;
   	}
 
 #category1 {
@@ -1895,9 +1896,9 @@ background-color: #0c1319;
 
 .contact-form1 {
 	position: relative;
-	padding-left: 80px;
-	padding-right:80px;
-	top: -215px;
+	padding-left: 120px;
+	padding-right:120px;
+	top: -240px;
 	bottom: 0;
 	left: auto; 
 	right: auto;
@@ -1907,33 +1908,41 @@ background-color: #030a12;
 
 	.contact-form {
 	position: relative;
-	padding-left: 60px;
-	padding-right:60px;
+	padding-left: 0px;
+	padding-right: 0px;
 
 }
 #company {
-	margin-top: -220px;
+	margin-top: -250px;
 }
 #menu-tile, #menu-tile1, #specials-tile, #map-tile, #menu-tile2 {
 	margin-top: 0px;
 
 
+
 }
+
+
+#menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
+font-size: 0.9em;
+top: 45px;
+
+	}
 
 .icon-cards {
  
- transform: scale(0.8); 
+ transform: scale(1.1); 
 }
 
 #carusel3d {
 	
-  margin-top: -230px;
+  margin-top: -330px;
 }
 
 
 
 		#fon {
-		height: 300px;
+		height: 430px;
 		margin-top: -50px;
 		 }
 
@@ -1944,7 +1953,7 @@ background-color: #030a12;
 /* FOOTER */
 
 .panel-footer {
-margin-top: -7px;
+margin-top: 60px;
 padding: 20px;
 }
 
@@ -2036,6 +2045,10 @@ color: #00b0f0;
 font-size: 20px;
 
 
+
+	}
+	#home-tiles p {
+		margin-bottom: 40px;
 	}
 #home-tiles {
 margin-left: 10px;
@@ -2065,6 +2078,22 @@ margin-right: 10px;
 }
 
 
+  #wa {
+  	position: fixed;
+  	top: 492px;
+  	right: 0px;
+  	z-index: 2;
+
+}
+
+#phone4 {
+  	position: fixed;
+  	top: 562px;
+  	right: 0px;
+  	z-index: 2;
+  	}
+
+
 #menu-tile1 p{
 	font-size: 16px;
 }
@@ -2072,65 +2101,51 @@ h6 {
 	font-size: 25px;
 
 }
-#category1 a{
-	margin-left: 50px;
-}
-#category2 a{
-	margin-left: 5px;
-}
 
-#category3 a{
-	margin-left: 50px;
-}
-
-#category4 a{
-	margin-left: 50px;
-}
-
-#category5 a{
-	margin-left: -15px;
+.form-wrapper {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(251, 251, 251, 0.2);
+    padding: 0px;
+    border-radius: 5px;
 }
 
-#category2 {
-	margin-top: -120px;
+.contact-form1 {
+	position: relative;
+	padding-left: 80px;
+	padding-right:80px;
+	top: -200px;
+	bottom: 0;
+	left: auto; 
+	right: auto;
+max-width: 760px;
+background-color: #030a12;
+	}
+
+	.contact-form {
+	position: relative;
+	padding-left: 60px;
+	padding-right:60px;
+
+}
+
+
+#company {
+	margin-top: -220px;
+}
+#menu-tile, #menu-tile1, #specials-tile, #map-tile, #menu-tile2 {
+	margin-top: 0px;
+
+
 }
 
 
-#foto {
-    width: 350px;
-    margin-left: 30px;
-} 
-img {
-	height: 240px;
-} 
 
-#plus {
-    position: relative;
-     left: 40px; 
-     top: 10px;
-     margin-bottom: 10px;
-      }
-
-      #plus p {
-padding-right: 10px;
-      }
-
-      .carousel-control-prev {
-    left: 0;
-    opacity: 0.9;
-}
-.carousel-control-next {
-    right: 0;
-    opacity: 0.9;
-}
-.carousel-control-next-icon, .carousel-control-prev-icon {
-    background-color: transparent;
-    width: 30px;
-    height: 30px;
-    border-radius: 0;
-    border: 0 solid #000000;
-
-}
 
 #menu-tile2 i {
     position: relative;
@@ -2161,6 +2176,25 @@ top: 45px;
     	margin-top: -120px;
     }
 
+
+
+    .icon-cards {
+ 
+ transform: scale(0.8); 
+}
+
+#carusel3d {
+	
+  margin-top: -230px;
+}
+
+
+
+		#fon {
+		height: 300px;
+		margin-top: -40px;
+		 }
+
     #testimonials {
 margin-left: 10px;
 margin-right: 10px;
@@ -2171,6 +2205,51 @@ margin-right: 10px;
 .panel-footer section hr {
     	width: 80%;
     }
+
+.panel-footer {
+margin-top: -7px;
+padding: 20px;
+}
+
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#hours, #address {
+    line-height: 2;
+    text-align: center;
+}
+
+#hours > span, #address > span {
+margin-left: -40px;
+	}
+
+.panel-footer section:nth-child(3) {
+	margin-bottom: 0; /* margin already exists on the whole row */
+}
+.panel-footer section hr {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	    border-top: 1px solid #fbfbfb;
+}
+
+/* End Footer */
+
+.form-wrapper1 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /*rgba(251, 251, 251, 0.2)*/
+    padding: 0px;
+    border-radius: 5px;
+}
+
 
    
 /*
