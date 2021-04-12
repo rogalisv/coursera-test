@@ -1668,6 +1668,7 @@ width: 100%
 @media (max-width: 767px) {
 /* Header */
 
+
 #logo-img {
 	background: url('../images/aka-solution-logo-170.webp') no-repeat;
 /*	background-position: bottom;*/
@@ -1712,16 +1713,35 @@ color: #00b0f0;
 }
 #citata {
 position: relative;
+width: 200px;
 		top: -350px;
 		bottom: 0;
-		margin-right: -40px;
+		right: 0;
+		margin-right: 20px;
 font-size: 0.4em;
 left: 10px;
 }
 #citata2 {
 top: -540px;
 left: 20px;
+right: 0;
+width: 350px;
 }
+
+
+  #wa {
+  	position: fixed;
+  	top: 452px;
+  	right: 0px;
+
+}
+
+#phone4 {
+  	position: fixed;
+  	top: 522px;
+  	right: 0px;
+  	}
+
 #category1 {
 	margin-top: -90px;
 }
