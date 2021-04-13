@@ -1612,14 +1612,14 @@ background-color: #0c1319;
   	position: fixed;
   	top: 480px;
   	right: 0px;
-z-index: 1000;
+z-index: -10;
 }
 
 #phone4 {
   	position: fixed;
   	top: 558px;
   	right: 0px;
-  	z-index: 1000;
+  	z-index: -10;
   	}
 
 .contact-form1 {
@@ -1628,7 +1628,7 @@ z-index: 1000;
 	top: -670px;
 	bottom: 0;
 	left: auto; 
-	right: 30px;
+	right: 0px;
 
 	}
 
@@ -1648,14 +1648,14 @@ z-index: 1000;
 		top: -550px;
 		bottom: 0;
 		right: 0;
-		left: 40px;
+		left: 20px;
 font-size: 0.4em;
 width: 300px;
 	}
 	#citata2 {
 		width: 400px;
 		right: 0;
-		left: 40px;
+		left: 20px;
 		top: -550px;
 		font-size: 0.4em;
 	}
@@ -2241,13 +2241,13 @@ margin-right: 10px;
 #citata {
 	position: relative;
 	top: -310px;
-	margin-left: 10px;
+	left: 20px;
 
 		font-size: 3vw;
 }
 #citata2 {
-	
-	top: -490px;
+	left: 70px;
+	top: -485px;
 }
 
 
