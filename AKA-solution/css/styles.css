@@ -679,6 +679,9 @@ a.call-btn {
 #map {
 
 	margin-top: 30px;
+	
+	
+	padding-right: 20px;
 }
 #batton1, #batton2 {
 	position: relative;
@@ -1600,10 +1603,35 @@ color: #00b0f0;
 }
 
 #call {
-padding-top: 30px;
+padding-top: 10px;
 padding-bottom: 40px;
 background-color: #0c1319;
 }
+
+  #wa {
+  	position: fixed;
+  	top: 480px;
+  	right: 0px;
+z-index: 1000;
+}
+
+#phone4 {
+  	position: fixed;
+  	top: 558px;
+  	right: 0px;
+  	z-index: 1000;
+  	}
+
+.contact-form1 {
+	position: relative;
+	z-index: 999;
+	top: -670px;
+	bottom: 0;
+	left: auto; 
+	right: 30px;
+
+	}
+
 
 #menu-categories-title {
 	font-size: 2.0rem;
@@ -1619,8 +1647,42 @@ background-color: #0c1319;
 		position: relative;
 		top: -550px;
 		bottom: 0;
-font-size: 1.2em;
+		right: 0;
+		left: 40px;
+font-size: 0.4em;
+width: 300px;
 	}
+	#citata2 {
+		width: 400px;
+		right: 0;
+		left: 40px;
+		top: -550px;
+		font-size: 0.4em;
+	}
+
+	#company {
+    margin-top: -582px;
+}
+
+#menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
+    position: absolute;
+    top: 45px;
+       font-size: 0.7em; 
+   
+   
+}
+#home-tiles img {
+	height: 150px;
+margin-top: -10px;
+border-radius: 40px;
+	}
+
+	/*#karta {
+background: url('../images/map_wl_776.png') no-repeat center;
+height: 500px;
+} */
+
+	
 	#category1 {
 		margin-top: -80px;
 	}
@@ -1651,13 +1713,124 @@ padding-left: 10px;
 padding-right: 0;
 }
 
-/*#vid {
-position: relative;
-top: 0;
-left: 0;
-width: 100%
 
-} */
+#map {
+	margin-bottom: 250px;
+	padding-right: 10px;
+}
+
+
+#batton1, #batton2 {
+	position: relative;
+	width: 260px;
+	height: 60px;
+	font-size: 20px;
+	
+
+
+} 
+
+
+
+
+#batton1 {
+	top: -225px;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+#batton2 {
+	top: -180px;
+		left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#batton1 a, #batton2 a {
+	color: #fff;
+
+}
+
+
+#batton1 div, #batton2 div {
+	padding-top: 5px;
+
+}
+
+.icon-cards {
+ 
+ transform: scale(1.1); 
+}
+
+#carusel3d {
+	
+  margin-top: -330px;
+}
+
+
+
+		#fon {
+		height: 430px;
+		margin-top: -55px;
+		 }
+ #menu-categories-title {
+     margin-top: 10px; 
+}
+
+
+/* Footer  */
+
+.panel-footer {
+margin-top: 60px;
+padding: 20px;
+}
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#hours, #address {
+    line-height: 2;
+    text-align: center;
+}
+
+#hours > span, #address > span {
+margin-left: -40px;
+	}
+
+.panel-footer section:nth-child(3) {
+	margin-bottom: 0; /* margin already exists on the whole row */
+}
+.panel-footer section hr {
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	    border-top: 1px solid #fbfbfb;
+}
+#testimonials {
+     margin-left: 0px; 
+}
+/* End Footer */
+
+.form-wrapper1 {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent; /*rgba(251, 251, 251, 0.2)*/
+    padding: 0px;
+    border-radius: 5px;
+}
+	.contact-form {
+	position: relative;
+	padding-left: 0px;
+	padding-right: 0px;
+
+}
+
 }
 
 
