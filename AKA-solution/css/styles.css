@@ -1282,15 +1282,107 @@ opacity: 0.4;
  	 }
 
  	 /* END FOOTER */
+/******** super Large devices only *****/
+@media (min-width: 1700px) {
+.container-fluid .jumbotron {
+	background: url('../images/2000.webp') no-repeat center;
+	height: 1040px;  /*675*/
+
+	}
+
+	#nav-list a {
+		font-size: 1.5em;
+			}
+	#citata {
+		font-size: 0.8em;
+		top: 360px
+	}
+#citata2 {
+	width: 400px;
+	top: -740px;
+}
+.contact-form1 {
+     top: -930px;
+
+}
+
+#home-tiles2 {
+font-size: 30px;
+	}
+
+#home-tiles p {
+    font-size: 25px;
+}
+
+#karta {
+background: url('../images/map4.png') no-repeat center;
+height: 900px;
+} 
+
+#batton1 {
+	position: relative;
+	top: -720px;
+	margin-left: auto;
+	margin-right: 80%;
+}
+#batton2 {
+	top: -670px;
+	margin-left: auto;
+	margin-right: 80%;
+}
+ .icon-cards {
+ 
+ transform: scale(1.8); 
+ 
+}
+
+.icon-cards:hover {
+	transform: scale(2.0);
+} 
+#carusel3d {
+	margin-top: -430px;
+}
+/* Footer  */
+
+.panel-footer {
+
+padding: 20px;
+margin-top: 160px;
+}
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#hours, #address {
+    line-height: 2;
+    text-align: center;
+}
+
+#hours > span, #address > span {
+margin-left: -40px;
+	}
+
+		#testimonials {
+     margin-left: 0px; 
+}
+
+
+}
+
+
 
 /******** extra Large devices only *****/
-@media (min-width: 1500px) {
+@media (min-width: 1500px) and (max-width: 1699px) {
 .container-fluid .jumbotron {
 	background: url('../images/грузоперевозки5.webp') no-repeat center;
 	height: 820px;  /*675*/
 
 	}
+#phone2 {
+margin-left: 290px;
 
+}
 	 #nav-list a {
  	 	font-size: 1.2em;}
 
@@ -1306,6 +1398,64 @@ opacity: 0.4;
 	margin-right: 7px;
 }
 
+#citata2 {
+	width: 500px;
+}
+
+#menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
+	font-size: 1.4em;
+}
+
+	#karta {
+background: url('../images/map4-1200.png') no-repeat center;
+height: 600px;
+} 
+#batton1 {
+	position: relative;
+	top: -500px;
+	margin-left: auto;
+	margin-right: 80%;
+}
+#batton2 {
+	top: -465px;
+	margin-left: auto;
+	margin-right: 80%;
+}
+
+
+    .icon-cards {
+ 
+ transform: scale(1.6); 
+ 
+}
+
+.icon-cards:hover {
+	transform: scale(1.8);
+} 
+
+.panel-footer {
+
+padding: 20px;
+padding-right: 45px;
+	margin-top: 130px;
+}
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#hours, #address {
+    line-height: 2;
+    text-align: center;
+}
+
+#hours > span, #address > span {
+margin-left: -40px;
+	}
+
+		#testimonials {
+     margin-left: 0px; 
+}
 }
 /******** Large devices only *****/
 
@@ -1385,14 +1535,26 @@ margin-left: 190px;
 	font-size: 0.6em;
 
 }
+#citata2 {
+	width: 500px;
+}
+
+
+	#karta {
+background: url('../images/map4-1200.png') no-repeat center;
+height: 600px;
+} 
 
 #batton1 {
-	top: -525px;
-	left: 60px;
+	position: relative;
+	top: -500px;
+	margin-left: auto;
+	margin-right: 83%;
 }
 #batton2 {
-	top: -490px;
-	left: 60px;
+	top: -465px;
+	margin-left: auto;
+	margin-right: 83%;
 }
 .icon-cards {
  
@@ -1404,9 +1566,32 @@ margin-left: 190px;
   margin-top: -350px;
 }
 
-.panel-footer {
- 	margin-top: 80px;}
+ 
 
+/* Footer  */
+
+.panel-footer {
+
+padding: 20px;
+	margin-top: 80px;
+}
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#hours, #address {
+    line-height: 2;
+    text-align: center;
+}
+
+#hours > span, #address > span {
+margin-left: -40px;
+	}
+
+		#testimonials {
+     margin-left: 0px; 
+}
 
 
 }
@@ -1460,7 +1645,11 @@ color: #00b0f0;
 	margin-top: -4px;
 	margin-bottom: -4px;
 }
-
+#call {
+padding-top: 5px;
+padding-bottom: 40px;
+background-color: #0c1319;
+}
 
 .contact-form1 {
 	position: relative;
@@ -1474,18 +1663,23 @@ color: #00b0f0;
 
 #citata {
 	position: relative;
-	top: -550px;
+	top: -600px;
 bottom: 0px;
 	
-	
-	font-size: 1.6em;
+	left: 30px;
+	font-size: 0.5em;
+width: 500px;
+}
+#citata2 {
+	width: 500px;
+	top: -600px;
+	left: 30px;
+}
 
-}
-/*
 #company {
-	margin-top: -600px;
+	margin-top: -520px;
 }
-*/
+
  #menu-tile1, #specials-tile, #map-tile, #menu-tile2 {
 	
 	margin-left: auto;
@@ -1519,11 +1713,7 @@ padding-right: 0;
 	font-size: 1.0em;
 
 }
-#call {
-padding-top: 30px;
-padding-bottom: 40px;
-background-color: #0c1319;
-}
+
 /* End Header */
 
 .container-fluid .jumbotron {
@@ -1533,6 +1723,74 @@ background-color: #0c1319;
 margin-bottom: -10px;
 
 }
+
+#home-tiles img {
+	height: 170px;
+margin-top: 0px;
+border-radius: 30px;
+	}
+
+#menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
+	font-size: 1.2em;
+}
+
+#map {
+	margin-bottom: 250px;
+	
+}
+
+#batton1 {
+	top: -225px;
+	left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+#batton2 {
+	top: -180px;
+		left: 0;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.icon-cards {
+ 
+ transform: scale(1.5); 
+}
+
+#carusel3d {
+	
+  margin-top: -400px;
+}
+
+#fon {
+	height: 600px;
+}
+
+/* Footer  */
+
+.panel-footer {
+
+padding: 20px;
+}
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#hours, #address {
+    line-height: 2;
+    text-align: center;
+}
+
+#hours > span, #address > span {
+margin-left: -40px;
+	}
+
+		#testimonials {
+     margin-left: 0px; 
+}
+
 
 }
 
@@ -2354,7 +2612,12 @@ top: 45px;
     .icon-cards {
  
  transform: scale(0.8); 
+ 
 }
+
+.icon-cards:hover {
+	transform: scale(1.0);
+} 
 
 #carusel3d {
 	
