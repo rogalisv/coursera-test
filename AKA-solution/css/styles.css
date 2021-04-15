@@ -2506,6 +2506,7 @@ margin-right: 10px;
 #citata2 {
 	left: 70px;
 	top: -485px;
+	width: 280px;
 }
 
 
@@ -2575,6 +2576,25 @@ background-color: #030a12;
 
 }
 
+#menu-tile {
+	background: url('../images/8_380(461).png') no-repeat;
+ background-position: top;
+ height: 470px;
+
+}
+#menu-tile1 {
+	background: url('../images/10-380.png') no-repeat;
+ background-position: top;
+  height: 470px;
+}
+
+ #specials-tile {
+ 	background: url('../images/9-380.png') no-repeat;
+ 	background-position: top;
+ height: 470px;
+ }
+
+
 
 
 
@@ -2598,8 +2618,14 @@ box-shadow: 0 1px 5px 1px #000;
 
 #menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
 font-size: 0.9em;
-top: 45px;
+top: 65px;
 
+	}
+
+
+	#home-tiles p {
+padding-right: 20px;
+padding-left: 20px;
 	}
 
     #map-tile {
