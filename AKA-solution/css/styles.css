@@ -349,9 +349,9 @@ z-index: -1;
     .form-wrapper {
         padding: 15px;
     }
-    .contact-form1 {
+  /*  .contact-form1 {
         padding: 0 15px 15px;
-    }
+    } */
     .contact-form__title1 {
         margin: 0 -15px 30px;
         padding: 15px 30px;
@@ -2484,7 +2484,7 @@ font-size: 20px;
 #home-tiles {
 margin-left: 10px;
 margin-right: 10px;
-
+margin-top: -20px;
 }
 
 #text {
