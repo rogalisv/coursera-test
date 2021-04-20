@@ -61,11 +61,11 @@ overflow-x:hidden;
 
 
 #logo-img {
-	background: url('../images/aka-solution-logo.webp') no-repeat;
+	background: url('../images/lts5.png') no-repeat;
 	background-position: bottom;
 	width: 300px;
 	height: 200px;
-	margin: 10px 50px 10px 0;
+	margin: 10px 50px 10px -40px;
 /*	 float: left;  */
 
 }
@@ -665,8 +665,10 @@ a.call-btn {
 	margin-bottom: 50px;
 	font-size: 2.5rem;
 	color: #0c1319;
+	text-transform: uppercase;
 
 }
+
 
 #line {
 	width: 30%;
@@ -688,6 +690,7 @@ a.call-btn {
 	width: 200px;
 	height: 60px;
 	font-size: 20px;
+	text-transform: none;
 	/*background-color: #00b0f0; */
 	background-image: linear-gradient(to bottom, #212e44 10%, #01b0f0 100%);
 	border-image-slice: 1;
@@ -811,8 +814,7 @@ margin-right: 20px;
 #home-tiles2 {
 	
 
-	margin-top: 30px;
-	margin-bottom: 50px;
+	
 	font-size: 25px;
 	margin-left: 60px;
 	margin-right: 60px
@@ -835,6 +837,7 @@ margin-right: 20px;
 	} 
 	#home-tiles p{
 		font-size: 20px;
+		text-transform: none;
 	}
 
 #menu-tile, #menu-tile1, #specials-tile, #map-tile, #menu-tile2 {
@@ -1222,13 +1225,101 @@ opacity: 0.4;
 	margin-bottom: 80px;
 }
 
-#tiles2 {
-	font-size: 25px;
+#tiles1 {
+	/*background: #333;*/
+}
+.banner {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%; 
+
+	overflow: hidden; 
+	display: flex; 
+	flex-wrap: wrap;
+}
+.banner .blocks {
+position: relative;
+display: block;
+width: 3vw;
+height: 3vh;
+/*background: #fff;*/
+animation: animate 0.75s ease-in-out forwards; 
+	}
+.banner .blocks:nth-child(even)
+{
+	animation: animate 1s ease-in-out forwards;
+}
+.banner .blocks:nth-child(7n+3)
+{
+	animation: animate 2.5s ease-in-out forwards;
+}
+.banner .blocks:nth-child(7n+7)
+{
+	animation: animate 1.5s ease-in-out forwards;
 }
 
 
+@keyframes animate {
+	0%
+	{opacity: 0;
+		transform: scale(0) translateY(500px);
+	}
+	50%
+	{
+		opacity: 1;
+		background: url(../images/fura3.jpg);
+		background-position: center;
+		background-attachment: fixed;
+	}
+	100%
+	{
+		opacity: 1;
+		transform: scale(1) translateY(0px);
+		background: url(../images/fura3.jpg);
+		background-position: center;
+		background-attachment: fixed;
+	}
+}
 
 
+#tiles2 {
+	font-size: 20px;
+	text-align: left;
+}
+
+#refregirator, #trali {
+	background-color: #00b0f0; 
+	margin-right: 20%;
+	margin-left: 20%;
+height: 90px;
+border-radius: 30px;
+/*border: 2px solid #0c1319; */
+	box-shadow: 2px 1px 5px 1px #0c1319;
+
+
+}
+#refregirator:hover, #trali:hover {
+	opacity: 0.7;
+
+
+}
+a:hover {
+    
+     text-decoration: none;
+    }
+
+#refregirator span, #trali span{
+color: #fff;
+text-transform: uppercase;
+vertical-align: middle;
+font-weight: bold;
+line-height: 0;
+position: relative;;
+top: 5px;
+
+}
 /*END USLUGI CATEGORIES PAGE*/
 
  /* FOOTER */
@@ -1283,7 +1374,101 @@ opacity: 0.4;
 
  	 /* END FOOTER */
 /******** super Large devices only *****/
-@media (min-width: 1700px) {
+@media (min-width: 1900px) {
+.container-fluid .jumbotron {
+	background: url('../images/2000.webp') no-repeat center;
+	height: 1040px;  /*675*/
+
+	}
+
+	#nav-list a {
+		font-size: 1.5em;
+			}
+
+			#phone2 {
+margin-left: 350px;
+}
+
+	#citata {
+		font-size: 0.8em;
+		top: 360px
+	}
+#citata2 {
+	width: 400px;
+	top: -740px;
+}
+.contact-form1 {
+     top: -930px;
+
+}
+
+#home-tiles2 {
+font-size: 30px;
+	}
+
+#home-tiles p {
+    font-size: 25px;
+}
+
+#karta {
+background: url('../images/map4.png') no-repeat center;
+height: 900px;
+} 
+
+#batton1 {
+	position: relative;
+	top: -720px;
+	margin-left: auto;
+	margin-right: 80%;
+}
+#batton2 {
+	top: -670px;
+	margin-left: auto;
+	margin-right: 80%;
+}
+ .icon-cards {
+ 
+ transform: scale(2.0); 
+ 
+}
+
+.icon-cards:hover {
+	transform: scale(2.2);
+} 
+#carusel3d {
+	margin-top: -480px;
+}
+/* Footer  */
+
+.panel-footer {
+
+padding: 20px;
+margin-top: 210px;
+}
+.panel-footer section {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+#hours, #address {
+    line-height: 2;
+    text-align: center;
+}
+
+#hours > span, #address > span {
+margin-left: -40px;
+	}
+
+		#testimonials {
+     margin-left: 0px; 
+}
+
+
+
+
+
+}
+@media (min-width: 1700px) and (max-width: 1899px) {
 .container-fluid .jumbotron {
 	background: url('../images/2000.webp') no-repeat center;
 	height: 1040px;  /*675*/
@@ -1374,9 +1559,17 @@ margin-left: -40px;
 
 /******** extra Large devices only *****/
 @media (min-width: 1500px) and (max-width: 1699px) {
+
+#logo-img {
+  
+    margin: -10px 50px 10px -40px;
+  
+
+    }
+
 .container-fluid .jumbotron {
-	background: url('../images/грузоперевозки5.webp') no-repeat center;
-	height: 820px;  /*675*/
+	background: url('../images/1700.png') no-repeat center;
+	height: 910px;  /*675*/
 
 	}
 #phone2 {
@@ -1400,7 +1593,12 @@ margin-left: 290px;
 
 #citata2 {
 	width: 500px;
+	top:-640px;
 }
+
+.contact-form1 {
+top: -810px;
+	}
 
 #menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
 	font-size: 1.4em;
@@ -1469,11 +1667,11 @@ margin-left: -40px;
 
 }
 #logo-img {
-	background: url('../images/aka-solution-logo-183.webp') no-repeat;
+	background: url('../images/lts-1200-1400.png') no-repeat;
 /*	background-position: bottom; */
 	width: 185px;
-	height: 120px; 
-	margin: 20px 10px 20px 30px;
+	height: 200px; 
+	margin: 0px 10px 20px 0px;
 
 	}
 
@@ -1530,7 +1728,7 @@ margin-left: 190px;
 	}
 
 #citata {
-	
+	top: 410px;
 	
 	font-size: 0.6em;
 
@@ -1606,11 +1804,11 @@ margin-left: -40px;
 } */
 
 #logo-img {
-	background: url('../images/aka-solution-logo-183.webp') no-repeat;
+	background: url('../images/lts-992-1200.png') no-repeat;
 /*	background-position: bottom; */
 	width: 300px;
-	height: 120px; 
-	margin: 20px 50px 20px 10px;
+	height: 150px; 
+	margin: 0px 50px 20px -20px;
 
 	}
 
@@ -1657,7 +1855,7 @@ background-color: #0c1319;
 	top: -750px;
 	bottom: 0;
 	left: auto; 
-	right: 50px;
+	right: 40px;
 
 	}
 
@@ -1804,11 +2002,11 @@ margin-left: -40px;
 } */
 
 #logo-img {
-	background: url('../images/aka-solution-logo-183.webp') no-repeat;
+	background: url('../images/lts-776-992.png') no-repeat;
 /*	background-position: bottom;*/
 	width: 280px;
-	height: 120px; 
-	margin: 20px 10px 0 10px;
+	height: 130px; 
+	margin: 10px 10px 0 -20px;
 
 	}
 
@@ -1887,7 +2085,7 @@ z-index: -10;
 	bottom: 0;
 	left: auto; 
 	right: 0px;
-
+padding: 0 50px 40px;
 	}
 
 
@@ -1919,7 +2117,7 @@ width: 300px;
 	}
 
 	#company {
-    margin-top: -582px;
+    margin-top: -588px;
 }
 
 #menu-tile span, #menu-tile1 span, #specials-tile span, #map-tile span {
@@ -2088,7 +2286,14 @@ margin-left: -40px;
 	padding-right: 0px;
 
 }
+#refregirator, #trali {
 
+	margin-right: 0;
+	margin-left: 0;
+
+
+
+}
 }
 
 
@@ -2101,7 +2306,7 @@ margin-left: -40px;
 
 
 #logo-img {
-	background: url('../images/aka-solution-logo-170.webp') no-repeat;
+	background: url('../images/lts-776.png') no-repeat;
 /*	background-position: bottom;*/
 	width: 160px;
 	height: 90px; 
@@ -2429,6 +2634,15 @@ margin-left: -40px;
     border-radius: 5px;
 }
 
+#refregirator, #trali {
+
+	margin-right: 0;
+	margin-left: 0;
+
+
+
+}
+}
 
 /******** Super extra small devices Only :-) (e.g., iphone 4) *****/
 
@@ -2467,7 +2681,7 @@ color: #00b0f0;
 
 }
 #menu-categories-title {
-	font-size: 1.3rem;
+font-size: 1.3rem;
 }
 
 
@@ -2637,18 +2851,25 @@ padding-left: 20px;
 
     .icon-cards {
  
- transform: scale(0.8); 
+ transform: scale(1.0); 
  
 }
 
 .icon-cards:hover {
-	transform: scale(1.0);
+	transform: scale(1.2);
 } 
 
 #carusel3d {
 	
   margin-top: -230px;
 }
+
+#fura4 {
+	height: 150px;
+}
+.icon-cards__item {
+max-height: 150px;
+	}
 
 
 
@@ -2730,6 +2951,33 @@ margin-left: -40px;
   flex: 0 0 100%;
   max-width: 100%;
 	}
+
+	#tiles2 {
+	text-align: center;
+
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
 }
 
+@media (min-width: 365px) and (max-width: 392px) {
+
+#citata {
+	position: relative;
+	top: -290px;
+	left: 20px;
+
+		}
+
+#citata2 {
+	left: 50px;
+	top: -465px;
+	width: 280px;
+}
+
+.panel-footer {
+margin-top: 62px;
+
+}
+	}
   	
