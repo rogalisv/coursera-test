@@ -32,18 +32,18 @@
 	// *** SMTP *** //
 
 		require_once($_SERVER['DOCUMENT_ROOT'] . '/mail/phpmailer/smtp.php');
-		const HOST = 'ssl://smtp.yandex.ru';
-		const LOGIN = 'vtopetop@yandex.ru';
-		const PASS = 'zz0304ZZvtopetop';
-		const PORT = '465';
+		const HOST = 'mail.smokerplace.kz';
+		const LOGIN = 'manager@smokerplace.kz';
+		const PASS = 'dr5P~89k';
+		const PORT = '25';
 
 	// *** /SMTP *** //
 
   // Почта с которой будет приходить письмо
-	const SENDER = 'vtopetop@yandex.ru';
+	const SENDER = 'manager@smokerplace.kz';
 	
 	// Почта на которую будет приходить письмо
-	const CATCHER = 'dima.d.v@list.ru';
+	const CATCHER = 'rogalis.v@gmail.com';
 	
 	// Тема письма
 	const SUBJECT = 'Заявка с сайта';
